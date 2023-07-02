@@ -1,0 +1,16 @@
+:root{
+    --fontDarkColor: #464646;
+    --darkBlue: #2A7AE4;
+
+    --backgroundWhite: #FFFFFF;
+    --backgroundGrey: #F5F5F5;
+    --backgroundLightBlue: #EAF2FD;
+    --font-family: 'Raleway';
+}
+
+/*titulos grandes*/
+.className{
+    font-weight: 700;
+    color: var(--fontDarkColor);
+}
+
