@@ -5,12 +5,41 @@
     --backgroundWhite: #FFFFFF;
     --backgroundGrey: #F5F5F5;
     --backgroundLightBlue: #EAF2FD;
-    --font-family: 'Raleway';
+    --starTitle: 'Starjout';
+    --titles: 'Baloo 2', 'Sans Serif';
+    --text: 'Comfortaa', 'Sans Serif';
 }
 
+@font-face {
+    font-family: 'Starjedi';
+    src: url(/assets/Starjedi.ttf);
+}
+@font-face {
+    font-family: 'Starjout';
+    src: url(/assets/Starjout.ttf);
+}
+
+body{
+    font-family: var(--text);
+    font-size: 1rem;
+}
 /*titulos grandes*/
-.className{
+.banner__titulo{
+    font-family: 'Starjout';
+}
+.galeria__productos--title{
     font-weight: 700;
     color: var(--fontDarkColor);
+    font-family:  var(--starTitle);
+}
+
+.btn{
+    font-family: var(--text);
+    border: 2px solid transparent;
+}
+
+.input{
+    font-family: var(--text);
+    padding: 1rem 0 1rem 1rem;
 }
 
