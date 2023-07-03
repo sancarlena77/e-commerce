@@ -19,20 +19,18 @@
     src: url(/assets/Starjout.ttf);
 }
 
-body{
-    font-family: var(--text);
-    font-size: 1rem;
-}
 /*titulos grandes*/
 .banner__titulo{
-    font-family: 'Starjout';
+    font-family: var(--starTitle);
 }
 .galeria__productos--title{
     font-weight: 700;
     color: var(--fontDarkColor);
     font-family:  var(--starTitle);
 }
-
+.destacado{
+    font-weight: bolder;
+}
 .btn{
     font-family: var(--text);
     border: 2px solid transparent;
@@ -41,5 +39,6 @@ body{
 .input{
     font-family: var(--text);
     padding: 1rem 0 1rem 1rem;
+    border: 2px solid transparent;
 }
 
